@@ -1,0 +1,23 @@
+body {
+    background-color: #000000;
+}
+
+#top-nav {
+    height: 150px;
+    width: 80%;
+    background-color:   #fff;
+    margin: 35px 0 0 25px;
+    border-radius: 10px;
+}
+
+#logo {
+    height: 100%;
+    width:
+}
+
+#logo-img {
+    height: 75%;
+    width: auto;
+    margin: 15px 0 0 20px;
+    padding: 0;
+}
