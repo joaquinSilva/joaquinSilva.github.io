@@ -1,23 +1,84 @@
 body {
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 #top-nav {
     height: 150px;
     width: 80%;
-    background-color:   #fff;
+    /*background-color:   #fff;*/
     margin: 35px 0 0 25px;
     border-radius: 10px;
 }
+/*pulsing animation code was inspired and came from this youtube video:*/
+/*https://www.youtube.com/watch?v=eIkwLeMluHY&t=207s&index=71&list=PLCSyOSvVq-UiXTXeiC6Ck9o0sx0xXTB3M*/
 
-#logo {
-    height: 100%;
-    width:
+.pulse {
+    height: 150px;
+    width: 150px;
+    transform: translate(50%, 50%);
+    /*position: absolute;*/
+    background: rgb(100, 0, 140);
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
 }
+.pulse:before,
+.pulse:after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ED661E;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden;
+}
+.pulse:after {
+    animation-delay: .5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
 
 #logo-img {
-    height: 75%;
+    height: 65%;
     width: auto;
-    margin: 15px 0 0 20px;
+    margin: 0;
     padding: 0;
+    text-align: center;
+    vertical-align: middle;
 }
+
+ul {
+    list-style-type: none;
+}
+
+
