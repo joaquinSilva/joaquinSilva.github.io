@@ -34,6 +34,7 @@ header, h1, h3 {
     background-color: white;
     margin: 0;
     padding: 0;
+}
 
 /*CSS GRID*/
 .wrapper {
@@ -78,7 +79,7 @@ header, h1, h3 {
     }
 }
 
-}
+
 .nav-li {
     list-style: none;
     position: absolute;
