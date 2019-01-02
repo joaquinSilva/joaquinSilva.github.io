@@ -31,12 +31,14 @@ a {
     color: #fff;
     text-decoration: none;
 }
-header, h1, h3 {
-    background-color: white;
+header h1 h3 {
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
+h1 h3 {
 
+}
 /*CSS GRID*/
 .wrapper {
     max-width: 940px;
@@ -83,7 +85,7 @@ header, h1, h3 {
 
 .nav-li {
     list-style: none;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 
@@ -91,24 +93,24 @@ header, h1, h3 {
     /*left: 50px;*/
 }
 #li-about {
-    left: 100px;
-    top: 75px;
+    /*left: 100px;*/
+    /*top: 75px;*/
 }
 #li-resume {
-    left: 200px;
+    /*left: 200px;*/
 }
 #li-contact {
-    left: 300px;
-    top: 75px;
+    /*left: 300px;*/
+    /*top: 75px;*/
 }
 
-#top-nav {
-    height: 250px;
-    width: 100%;
-    /*background-color:   #fff;*/
-    background: rgb(70, 0, 98);
-    margin: 0;
-}
+/*#top-nav {*/
+    /*height: 250px;*/
+    /*width: 100%;*/
+    /*!*background-color:   #fff;*!*/
+    /*background: rgb(70, 0, 98);*/
+    /*margin: 0;*/
+/*}*/
 
 /*CODE FOR PULSING LOGO BUTTON ON NAV-BAR*/
 /*pulsing animation code was inspired and adapted from this youtube video:*/
