@@ -1,0 +1,40 @@
+/*
+	Dimension by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+	Use of license purchased by Joaquin Silva
+	Original code refactored by Joaquin Silva in accord with terms of Pixelarity license
+	Original site design can be found here: https://pixelarity.com/dimension
+*/
+
+/* BG */
+
+	body.is-preload #bg:before {
+		background-color: transparent;
+	}
+
+/* Header */
+
+	body.is-preload #header {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+		body.is-preload #header > * {
+			opacity: 1;
+		}
+
+		body.is-preload #header .content .inner {
+			max-height: none;
+			padding: 3rem 2rem;
+			opacity: 1;
+		}
+
+/* Main */
+
+	#main article {
+		opacity: 1;
+		margin: 4rem 0 0 0;
+	}
