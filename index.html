@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body class="is-preload">
@@ -31,19 +32,33 @@
             <div class="inner">
                 <h1>Joaquin Silva</h1>
                 <h3>Software Developer</h3>
-                <p>A morbi blandit ante natoque aliquet ut Commodo cep cubilia<br />
-                    cep quam augue vel Feugiat Aliquam egestas.</p>
+                <!--<p>A morbi blandit ante natoque aliquet ut Commodo cep cubilia<br />-->
+                    <!--cep quam augue vel Feugiat Aliquam egestas.</p>-->
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="colored-button" href="#intro"><svg><rect></rect></svg>Intro</a></li>
+                <li><a class="colored-button" href="#work"><svg><rect></rect></svg>Work</a></li>
+                <li><a class="colored-button" href="#about"><svg><rect></rect></svg>About</a></li>
+                <li><a class="colored-button" href="#contact"><svg><rect></rect></svg>Contact</a></li>
                 <!--<li><a href="#elements">Elements</a></li>-->
+                <!--<li>Elements</li>-->
             </ul>
+
+            <!--li creates a box and and a creates the width of the box-->
         </nav>
+
+        <!--<aside class="sidebar">-->
+            <!--<nav class="sidebar">-->
+                <!--<ul>-->
+                    <!--<li class="nav-li" id="li-projects"><a class="colored-button" href="javascript:"><svg><rect></rect></svg>Projects</a></li>-->
+                    <!--<li class="nav-li" id="li-about"><a class="colored-button" href="javascript:"><svg><rect></rect></svg>About</a></li>-->
+                    <!--<li class="nav-li" id="li-resume"><a class="colored-button"href="javascript:"><svg><rect></rect></svg>Resume</a></li>-->
+                    <!--<li class="nav-li" id="li-contact"><a class="colored-button"href="javascript:"><svg><rect></rect></svg>Contact</a></li>-->
+                <!--</ul>-->
+            <!--</nav>-->
+        <!--</aside>-->
     </header>
 
     <!-- Main -->
@@ -75,31 +90,34 @@
         <!-- Contact -->
         <article id="contact">
             <h2 class="major">Contact</h2>
-            <form method="post" action="#">
-                <div class="fields">
-                    <div class="field half">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message" class="primary" /></li>
-                    <li><input type="reset" value="Reset" /></li>
-                </ul>
-            </form>
+            <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+            <p>Thank you for taking the time to view my website! Below are my additional sites and contact links. I look forward to hearing back from you regarding your open job position(s).</p>
+            <!--<form method="post" action="#">-->
+                <!--<div class="fields">-->
+                    <!--<div class="field half">-->
+                        <!--<label for="name">Name</label>-->
+                        <!--<input type="text" name="name" id="name" />-->
+
+                    <!--</div>-->
+                    <!--<div class="field half">-->
+                        <!--<label for="email">Email</label>-->
+                        <!--<input type="text" name="email" id="email" />-->
+                    <!--</div>-->
+                    <!--<div class="field">-->
+                        <!--<label for="message">Message</label>-->
+                        <!--<textarea name="message" id="message" rows="4"></textarea>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<ul class="actions">-->
+                    <!--<li><input type="submit" value="Send Message" class="primary" /></li>-->
+                    <!--<li><input type="reset" value="Reset" /></li>-->
+                <!--</ul>-->
+            <!--</form>-->
             <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:SILVA.JOAQUIN.A.04@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="tel:+18066621252" target="_blank" class="icon fa-phone"><span class="label">1-806-662-1252</span></a></li>
+                <li><a href="http://www.linkedin.com/in/joaqu%C3%ADn-silva" target="_blank" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/joaquinSilva" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
             </ul>
         </article>
 
@@ -379,27 +397,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <!--<title>Joaquin Silva: Portfolio</title>-->
     <!--<link rel="stylesheet" type="text/css" href="css/portfolio.css">-->
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">-->
+    <!---->
 <!--</head>-->
 <!--<body>-->
-<div class="wrapper">
-    <header class="header">
+<!--<div class="wrapper">-->
+    <!--<header class="header">-->
 
         <!--<h1>Joaquín Andrés Silva</h1>-->
         <!--<h3>Full Stack Web Developer</h3>-->
         <!--&lt;!&ndash;Generally an image of the product/logo with a call to action,&ndash;&gt;-->
         <!--&lt;!&ndash;like subscribing or signing up.&ndash;&gt;-->
     <!--</header>-->
-    <!--<aside class="sidebar">-->
-        <!--<nav class="sidebar">-->
-            <!--<ul>-->
-                <!--<li class="nav-li" id="li-projects"><a class="colored-button" href="javascript:"><svg><rect></rect></svg>Projects</a></li>-->
-                <!--<li class="nav-li" id="li-about"><a class="colored-button" href="javascript:"><svg><rect></rect></svg>About</a></li>-->
-                <!--<li class="nav-li" id="li-resume"><a class="colored-button"href="javascript:"><svg><rect></rect></svg>Resume</a></li>-->
-                <!--<li class="nav-li" id="li-contact"><a class="colored-button"href="javascript:"><svg><rect></rect></svg>Contact</a></li>-->
-            <!--</ul>-->
-        <!--</nav>-->
-    <!--</aside>-->
+
     <!--<main class="content">-->
         <!--&lt;!&ndash;when each nav-tab is pushed, javascript/jquery will be called to rewrite the html of the "content" box.&ndash;&gt;-->
         <!--&lt;!&ndash;this will create a situation where only one section can be displayed at a time, instead of having multiple&ndash;&gt;-->
@@ -415,7 +424,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
         <!--</section>-->
         <!--<section class="invisible-section" id="contact">-->
-            <!--<a href="mailto:SILVA.JOAQUIN.A.04@gmail.com" target="_blank"><i class="far fa-envelope"></i>Email Me</a>-->
+
             <!--<a href='https://www.linkedin.com/in/joaquín-silva-b6281390' target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>-->
             <!--<a href='https://github.com/joaquinSilva' target="_blank"><i class="fab fa-github-square"></i></i>GitHub</a>-->
         <!--</section>-->
