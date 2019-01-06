@@ -1021,10 +1021,16 @@ input, select, textarea {
 	height: 4.5rem;
 }
 #profileImage {
-    width: auto;
-    height: 8rem;
+    width: 60%;
+    height: auto;
     border-radius: 10%;
-    border: solid 1px #ED661E;
+    /*border: solid 2px #ED661E;*/
+	border: solid 4px #366D7E;
+	display: block;
+	margin: 0 auto;
+}
+#profileImageContainer {
+	text-align: center;
 }
 /* Button */
 
