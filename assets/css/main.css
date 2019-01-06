@@ -979,6 +979,53 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+/* Portfolio Project Cards */
+.card {
+	background: rgba(255, 255, 255, 0.075);
+	border-radius: 4px;
+	font-family: "Courier New", monospace;
+	font-size: 0.9rem;
+	margin: 0 0.25rem;
+	padding: 0.25rem 0.65rem;
+}
+.projectItem {
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+	/*@media screen and (max-width: 736px) {*/
+
+		/*.projectItem {*/
+			/*width: 100% ;*/
+		/*}*/
+	/*}*/
+
+	@media screen and (max-width: 480px) {
+
+		.projectItem {
+			width: 100% ;
+		}
+
+	}
+
+.toolItem {
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.toolImage {
+	width: auto;
+	height: 4.5rem;
+}
+#profileImage {
+    width: auto;
+    height: 8rem;
+    border-radius: 10%;
+    border: solid 1px #ED661E;
+}
 /* Button */
 
 	input[type="submit"],
