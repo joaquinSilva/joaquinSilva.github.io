@@ -7,7 +7,7 @@
 	License: pixelarity.com/license
 	Use of license purchased by Joaquin Silva
 	Original code refactored by Joaquin Silva in accord with terms of Pixelarity license
-	Original site design can be found here: https://pixelarity.com/dimension
+	Original site design can be found here for comparison: https://pixelarity.com/dimension
 */
 
 html, body, div, span, applet, object,
@@ -994,14 +994,6 @@ input, select, textarea {
 	text-align: center;
 	padding-bottom: 1rem;
 }
-
-	/*@media screen and (max-width: 736px) {*/
-
-		/*.projectItem {*/
-			/*width: 100% ;*/
-		/*}*/
-	/*}*/
-
 	@media screen and (max-width: 480px) {
 
 		.projectItem {
@@ -1009,7 +1001,7 @@ input, select, textarea {
 		}
 
 	}
-
+/*Project List Items*/
 .toolItem {
 	width: 48%;
 	display: inline-block;
@@ -1020,17 +1012,30 @@ input, select, textarea {
 	width: auto;
 	height: 4.5rem;
 }
+/*Resume and Profile Pic*/
+#resumeContainer {
+	text-align: center;
+}
 #profileImage {
     width: 60%;
     height: auto;
     border-radius: 10%;
-    /*border: solid 2px #ED661E;*/
 	border: solid 4px #366D7E;
 	display: block;
 	margin: 0 auto;
 }
-#profileImageContainer {
-	text-align: center;
+@media screen and (max-width: 736px) {
+
+	#profileImage {
+		width: 70% ;
+	}
+}
+@media screen and (max-width: 480px) {
+
+	#profileImage {
+		width: 80% ;
+	}
+
 }
 /* Button */
 
