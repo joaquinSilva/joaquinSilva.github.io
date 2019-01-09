@@ -118,7 +118,7 @@ nav ul {
 /*}*/
 .colored-button {
     /*position: absolute;*/
-
+    padding-left: 0;
     /*width: 180px;*/
     /*height: 60px;*/
     /*text-align: center;*/
