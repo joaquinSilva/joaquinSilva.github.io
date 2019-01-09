@@ -157,3 +157,14 @@ nav ul {
     /*stroke: #ED661E;*/
     stroke: #366D7E;
 }
+@media screen and (max-width: 736px) {
+
+    .colored-button:hover svg rect {
+
+        stroke-dasharray: 80, 400;
+        stroke-dashoffset: 265;
+        /*stroke: #ED661E;*/
+        stroke: #366D7E;
+    }
+
+}
